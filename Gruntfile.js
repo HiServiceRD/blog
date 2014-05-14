@@ -6,15 +6,14 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     clean: {
-      clean: ["publish"],
-      initClean: ["_publish", "publish"],
-      prePublish: ["_publish"]
+      clean: ["public"],
+      initClean: ["_publish", "public"]
     },
     copy: {
       buildToPublish: {
         files: [{
           expand: true,
-          cwd: 'publish/',
+          cwd: 'public/',
           src: ['**'],
           dest: '_publish/'
         }]
@@ -49,7 +48,7 @@ module.exports = function(grunt) {
   });
   grunt.registerTask('hexoGenerate', 'Generate hexo.', function() {
     var done = this.async();
-    var gen = spawn("hexo.cmd", ["generate"], {
+    var gen = spawn(process.platform === "win32" ? "hexo.cmd" : "hexo", ["generate"], {
       stdio: 'inherit'
     });
     gen.on('close', function(code) {
@@ -61,7 +60,7 @@ module.exports = function(grunt) {
   });
   grunt.registerTask('hexoServer', 'Start hexo server.', function() {
     var done = this.async();
-    var gen = spawn("hexo.cmd", ["server"], {
+    var gen = spawn(process.platform === "win32" ? "hexo.cmd" : "hexo", ["server"], {
       stdio: 'inherit'
     });
     gen.on('close', function(code) {
@@ -72,7 +71,7 @@ module.exports = function(grunt) {
     });
   });
   grunt.registerTask('init', ['clean:initClean', 'gitclone']);
-  grunt.registerTask('default', ['clean', 'hexoGenerate']);
+  grunt.registerTask('default', ['clean:clean', 'hexoGenerate']);
   grunt.registerTask('build', ['default']);
   grunt.registerTask('server', ['build', 'hexoServer']);
   grunt.registerTask('publish', ['build', 'copy:buildToPublish', 'gh-pages:publish']);
