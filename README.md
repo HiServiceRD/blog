@@ -25,6 +25,7 @@
 使用命令`grunt server`启动服务器，然后使用`http://127.0.0.1:4000`查看效果
 
 ###发布
+在发布前，请使用命令`git pull`保证当前项目与github上的最新项目同步
 
 使用`grunt publish`进行发布，发布后访问`http://hiservicerd.github.io/`查看发布是否成功，如果成功，在项目目录下运行如下命令同步博客项目:
 ```
