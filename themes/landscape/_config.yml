@@ -1,11 +1,12 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  首页: /
+  文章: /archives
+  GIT: https://github.com/HiServiceRD
 rss: /atom.xml
 
 # Content
-excerpt_link: Read More
+excerpt_link: 查看详细
 fancybox: true
 
 # Sidebar
@@ -18,7 +19,7 @@ widgets:
 - recent_posts
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-51090540-1
 favicon: /favicon.png
 twitter:
 google_plus:
