@@ -1,0 +1,123 @@
+date: 2014-05-26 15:55:42.416
+argv: node C:\Users\Administrator\AppData\Roaming\npm\node_modules\hexo\bin\hexo generate --debug
+os: Windows_NT 6.1.7601 win32 ia32
+version:
+  hexo: 2.6.0
+  http_parser: 1.0
+  node: 0.10.28
+  v8: 3.14.5.9
+  ares: 1.9.0-DEV
+  uv: 0.10.27
+  zlib: 1.2.3
+  modules: 11
+  openssl: 1.0.1g
+---
+
+[debug] 15:55:42.853 Processed: draft.md
+[debug] 15:55:42.857 Processed: photo.md
+[debug] 15:55:42.858 Processed: page.md
+[debug] 15:55:42.859 Processed: post.md
+[debug] 15:55:42.860 Config file loaded
+[debug] 15:55:42.862 Version info checked successfully
+[debug] 15:55:42.904 Loading database.
+[debug] 15:55:42.966 Plugin loaded successfully: hexo-generator-feed
+[debug] 15:55:42.970 Script load successfully: fancybox.js
+[debug] 15:55:43.229 Processed: _posts/google-constructing-the-object-model.md
+[debug] 15:55:43.230 Processed: _posts/google-render-tree-construction-layout-and-paint.md
+[debug] 15:55:43.231 Processed: _posts/google-responsive-design-fundamentals.md
+[debug] 15:55:43.231 Processed: _posts/jquery-source-promise.md
+[debug] 15:55:43.232 Processed: _posts/who-are-we.md
+[debug] 15:55:43.236 Processed: favicon.png
+[debug] 15:55:43.238 Processed: img/jquery-source-promise/jQuery.jpg
+[debug] 15:55:43.242 Processed: Gruntfile.js
+[debug] 15:55:43.244 Processed: LICENSE
+[debug] 15:55:43.245 Processed: README.md
+[debug] 15:55:43.246 Processed: package.json
+[debug] 15:55:43.247 Processed: scripts/fancybox.js
+[debug] 15:55:43.257 Processed: source/css/_extend.styl
+[debug] 15:55:43.259 Processed: source/css/_variables.styl
+[debug] 15:55:43.260 Processed: source/css/_partial/archive.styl
+[debug] 15:55:43.261 Processed: source/css/_partial/article.styl
+[debug] 15:55:43.262 Processed: source/css/_partial/comment.styl
+[debug] 15:55:43.265 Processed: source/css/_partial/footer.styl
+[debug] 15:55:43.268 Processed: source/css/_partial/header.styl
+[debug] 15:55:43.284 Processed: source/css/_partial/highlight.styl
+[debug] 15:55:43.285 Processed: source/css/_partial/mobile.styl
+[debug] 15:55:43.286 Processed: source/css/_partial/sidebar-aside.styl
+[debug] 15:55:43.287 Processed: source/css/_partial/sidebar-bottom.styl
+[debug] 15:55:43.287 Processed: source/css/_partial/sidebar.styl
+[debug] 15:55:43.288 Processed: source/css/_util/grid.styl
+[debug] 15:55:43.289 Processed: source/css/_util/mixin.styl
+[debug] 15:55:43.571 Processed: source/js/script.js
+[debug] 15:55:43.573 Processed: source/css/style.styl
+[debug] 15:55:43.573 Processed: source/css/fonts/FontAwesome.otf
+[debug] 15:55:43.575 Processed: source/css/fonts/fontawesome-webfont.eot
+[debug] 15:55:43.575 Processed: source/css/fonts/fontawesome-webfont.svg
+[debug] 15:55:43.576 Processed: source/css/fonts/fontawesome-webfont.ttf
+[debug] 15:55:43.578 Processed: source/css/fonts/fontawesome-webfont.woff
+[debug] 15:55:43.579 Processed: source/css/images/banner.jpg
+[debug] 15:55:43.580 Processed: source/css/images/banner1.jpg
+[debug] 15:55:43.581 Processed: source/fancybox/blank.gif
+[debug] 15:55:43.583 Processed: source/fancybox/fancybox_loading.gif
+[debug] 15:55:43.584 Processed: source/fancybox/fancybox_loading@2x.gif
+[debug] 15:55:43.585 Processed: source/fancybox/fancybox_overlay.png
+[debug] 15:55:43.586 Processed: source/fancybox/fancybox_sprite.png
+[debug] 15:55:43.588 Processed: source/fancybox/fancybox_sprite@2x.png
+[debug] 15:55:43.589 Processed: source/fancybox/jquery.fancybox.js
+[debug] 15:55:43.590 Processed: source/fancybox/jquery.fancybox.css
+[debug] 15:55:43.591 Processed: source/fancybox/jquery.fancybox.pack.js
+[debug] 15:55:43.592 Processed: source/fancybox/helpers/fancybox_buttons.png
+[debug] 15:55:43.593 Processed: source/fancybox/helpers/jquery.fancybox-buttons.css
+[debug] 15:55:43.594 Processed: source/fancybox/helpers/jquery.fancybox-buttons.js
+[debug] 15:55:43.595 Processed: source/fancybox/helpers/jquery.fancybox-media.js
+[debug] 15:55:43.597 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.css
+[debug] 15:55:43.598 Processed: source/fancybox/helpers/jquery.fancybox-thumbs.js
+[debug] 15:55:43.599 Cache saved
+[debug] 15:55:43.602 Theme config loaded
+[debug] 15:55:43.603 Processed: _config.yml
+[debug] 15:55:43.608 Processed: layout/archive.ejs
+[debug] 15:55:43.609 Processed: layout/category.ejs
+[debug] 15:55:43.609 Processed: layout/index.ejs
+[debug] 15:55:43.611 Processed: layout/layout.ejs
+[debug] 15:55:43.616 Processed: layout/page.ejs
+[debug] 15:55:43.617 Processed: layout/post.ejs
+[debug] 15:55:43.618 Processed: layout/tag.ejs
+[debug] 15:55:43.619 Processed: layout/_widget/archive.ejs
+[debug] 15:55:43.621 Processed: layout/_widget/category.ejs
+[debug] 15:55:43.621 Processed: layout/_widget/recent_posts.ejs
+[debug] 15:55:43.622 Processed: layout/_widget/tag.ejs
+[debug] 15:55:43.624 Processed: layout/_widget/tagcloud.ejs
+[debug] 15:55:43.624 Processed: layout/_partial/after-footer.ejs
+[debug] 15:55:43.625 Processed: layout/_partial/archive-post.ejs
+[debug] 15:55:43.626 Processed: layout/_partial/archive.ejs
+[debug] 15:55:43.627 Processed: layout/_partial/article.ejs
+[debug] 15:55:43.627 Processed: layout/_partial/footer.ejs
+[debug] 15:55:43.628 Processed: layout/_partial/google-analytics.ejs
+[debug] 15:55:43.628 Processed: layout/_partial/head.ejs
+[debug] 15:55:43.629 Processed: layout/_partial/header.ejs
+[debug] 15:55:43.630 Processed: layout/_partial/mobile-nav.ejs
+[debug] 15:55:43.631 Processed: layout/_partial/sidebar.ejs
+[debug] 15:55:43.631 Processed: layout/_partial/post/category.ejs
+[debug] 15:55:43.632 Processed: layout/_partial/post/date.ejs
+[debug] 15:55:43.633 Processed: layout/_partial/post/gallery.ejs
+[debug] 15:55:43.633 Processed: layout/_partial/post/tag.ejs
+[debug] 15:55:43.634 Processed: layout/_partial/post/nav.ejs
+[debug] 15:55:43.635 Processed: layout/_partial/post/title.ejs
+[info] 15:55:43.641 Files loaded in 0.668s
+[debug] 15:55:43.646 Public folder cleared: index.html,atom.xml,favicon.png,js\script.js,img\jquery-source-promise\jQuery.jpg,css\style.styl,css\fonts\fontawesome-webfont.eot,css\fonts\fontawesome-webfont.svg,css\fonts\fontawesome-webfont.ttf,css\images\banner.jpg,css\images\banner1.jpg,fancybox\blank.gif,fancybox\fancybox_loading.gif,fancybox\fancybox_loading@2x.gif,fancybox\fancybox_overlay.png,fancybox\fancybox_sprite.png,fancybox\fancybox_sprite@2x.png,fancybox\jquery.fancybox.js,fancybox\jquery.fancybox.css,fancybox\jquery.fancybox.pack.js,fancybox\helpers\fancybox_buttons.png,fancybox\helpers\jquery.fancybox-buttons.css,fancybox\helpers\jquery.fancybox-buttons.js,fancybox\helpers\jquery.fancybox-media.js,fancybox\helpers\jquery.fancybox-thumbs.css,fancybox\helpers\jquery.fancybox-thumbs.js,css\fonts\FontAwesome.otf,css\fonts\fontawesome-webfont.woff
+[debug] 15:55:43.648 Render index: 
+[create] 15:55:43.662 Public: atom.xml
+[create] 15:55:43.668 Public: js\script.js
+[create] 15:55:43.670 Public: css\style.styl
+[create] 15:55:43.671 Public: css\fonts\fontawesome-webfont.svg
+[create] 15:55:43.672 Public: css\fonts\fontawesome-webfont.eot
+[create] 15:55:43.673 Public: css\fonts\fontawesome-webfont.ttf
+[create] 15:55:43.675 Public: css\images\banner.jpg
+[create] 15:55:43.676 Public: fancybox\blank.gif
+[create] 15:55:43.676 Public: css\images\banner1.jpg
+[create] 15:55:43.677 Public: fancybox\fancybox_loading.gif
+[create] 15:55:43.678 Public: fancybox\fancybox_loading@2x.gif
+[create] 15:55:43.679 Public: fancybox\fancybox_overlay.png
+[create] 15:55:43.680 Public: fancybox\fancybox_sprite.png
+[create] 15:55:43.681 Public: fancybox\fancybox_sprite@2x.png
+[create] 15:55:43.681 Public: fancybox\jquery.fancybox.js

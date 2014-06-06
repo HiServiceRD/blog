@@ -1,6 +1,6 @@
 {
   "name": "HiServiceRD",
-  "version": "2.5.7",
+  "version": "2.6.0",
   "private": true,
   "dependencies": {
     "grunt": "~0.4.2",
@@ -9,6 +9,9 @@
     "grunt-git": "~0.2.8",
     "grunt-contrib-copy": "^0.5.0",
     "load-grunt-tasks": "~0.2.0",
-    "hexo-generator-feed": "~0.1.1"
+    "hexo-generator-feed": "~0.1.1",
+    "hexo-renderer-ejs": "*",
+    "hexo-renderer-stylus": "*",
+    "hexo-renderer-marked": "*"
   }
 }

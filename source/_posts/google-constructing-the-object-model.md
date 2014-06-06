@@ -32,7 +32,6 @@ tags:
   </body>
 </html>
 ```
-
 其从字节到DOM树的过程如下图所示：
 
 ![从字节到DOM树的过程](http://skyinlayerblog.qiniudn.com/blog/img/2014-5-20/1.png)
